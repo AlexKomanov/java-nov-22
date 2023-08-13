@@ -1,5 +1,8 @@
 package part_01_variables;
 
+
+import java.util.Scanner;
+
 public class MyFirstString {
     public static void main(String[] args) {
 
@@ -16,5 +19,9 @@ public class MyFirstString {
         System.out.println("name = " + name);
 
 
+        Scanner input = new Scanner(System.in);
+        String myName = input.nextLine();
+
+        System.out.println("myName = " + myName);
     }
 }
