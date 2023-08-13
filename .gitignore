@@ -1,0 +1,9 @@
+### IntelliJ IDEA ###
+out/
+
+.idea/
+
+IntNov23JavaProject.iml
+
+### Mac OS ###
+.DS_Store
