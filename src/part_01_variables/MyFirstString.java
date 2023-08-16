@@ -23,5 +23,10 @@ public class MyFirstString {
         String myName = input.nextLine();
 
         System.out.println("myName = " + myName);
+
+        int hours = 23;
+        int minutes = 59;
+
+        System.out.println(hours + " : " + minutes);
     }
 }
