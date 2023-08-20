@@ -1,4 +1,4 @@
-package part_03_assignment_operators.classTasks;
+package part_03_01_assignment_operators.classTasks;
 
 public class AssignmentTask {
     public static void main(String[] args) {

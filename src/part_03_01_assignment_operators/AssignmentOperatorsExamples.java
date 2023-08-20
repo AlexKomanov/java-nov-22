@@ -1,4 +1,4 @@
-package part_03_assignment_operators;
+package part_03_01_assignment_operators;
 
 public class AssignmentOperatorsExamples {
     public static void main(String[] args) {
