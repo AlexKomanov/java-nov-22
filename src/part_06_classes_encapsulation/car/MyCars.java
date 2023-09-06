@@ -34,5 +34,6 @@ public class MyCars {
         System.out.println("skoda.year = " + skoda.year);
         skoda.setBrand("Skoda Kamiq");
         System.out.println("skoda.brand = " + skoda.getBrand());
+        System.out.println(Car.staticCounter);
     }
 }

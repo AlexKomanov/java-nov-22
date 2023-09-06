@@ -16,13 +16,18 @@ public class Scope {
 
         System.out.println("globalSum = " + globalSum);
 
-        System.out.println(sumOfTwoNumbers(5, 10));
+        System.out.println(calculateSumOfTwoNumbers(5, 10));
+        System.out.println(calculateSumOfTwoNumbers(1, 100));
+        System.out.println(calculateSumOfTwoNumbers(150, 200));
+        System.out.println(calculateSumOfTwoNumbers(1, 0));
+        System.out.println(calculateSumOfTwoNumbers(1000, 10));
         printSummary(20, 30);
 
     }
 
-    public static int sumOfTwoNumbers(int a, int b) {
+    public static int calculateSumOfTwoNumbers(int a, int b) {
         int summary = a + b;
+        System.out.println("Calculating a total summary of " + a + " and " + b + "...");
         return summary;
     }
 

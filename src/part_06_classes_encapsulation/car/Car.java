@@ -18,6 +18,11 @@ public class Car {
         staticCounter++;
     }
 
+    public Car(boolean isElectrical, String color) {
+        this.isElectrical = isElectrical;
+        this.color = color;
+    }
+
     public Car(String brand, int year, double horsePower, boolean isElectrical) {
         this.brand = brand;
         this.year = this.validateYear(year);
