@@ -9,6 +9,8 @@ public class FinalQuestion3 {
         System.out.println("Enter a word: ");
         String word = scan.nextLine();
 
+        System.out.println(word.length());
+
         for (int i = word.length() - 1; i >= 0; i--) {
             System.out.print(word.charAt(i));
 
